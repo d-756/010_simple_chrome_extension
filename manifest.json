@@ -1,0 +1,14 @@
+{
+	"name": "Object extension",
+	"version": "1.0",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches" : [
+				"https://www.identityiq.com/*"
+			],
+			"js": ["jquery.js","run.js"],
+			"run_at": "document_start"
+		}
+	]
+}
